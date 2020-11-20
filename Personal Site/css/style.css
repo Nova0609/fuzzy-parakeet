@@ -1,0 +1,39 @@
+body {
+  background-color: #eeeded;
+}
+
+h3{
+  text-align: center;
+  color: #5c6e91;
+}
+
+
+hr {
+  border-color: #5c6e91;
+  text-align: center;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  height: 0;
+  width: 10%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  display: inline-block;
+}
+
+th {
+  display: inline-block;
+}
+
+.name-plate{
+  color: #8f384d;
+}
+.contact-box{
+  color: #000;
+}
