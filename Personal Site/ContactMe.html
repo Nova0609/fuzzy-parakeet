@@ -1,50 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
 
-    body {
-      background-color: #a8dda8;
-      text-align: center;
-    }
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css\style.css">
 
-    th,  td {  padding: 10px;}
+</head>
 
-    hr {
-      border-color: #28abb9;
-      text-align: center;
-      border-style: none;
-      border-top-style: dotted;
-      border-width: 7px;
-      height: 0px;
-      width: 10%;}
-  </style>
+<body>
+  <h3>Contact me</h3>
+<p class="name-plate">
+  Brandi <strong>(Nova)</strong> McClure<br>
+</p>
+  <p class="contact-box">
+    novazerosix09@outlook.com <br>
+    Phone: <em>Not Available</em>
+  </p>
+  <br><br>
+  <hr><br>
 
+  <form action="mailto:live.outlook.com" method="POST" enctype="multipart/form-data" name="EmailForm">
+    <label>Your Name:</label>
+    <input type="text" name="" value=""><br>
 
-  </head>
+    <label> Email:</label>
+    <input type="email"><br>
 
-  <body>
-    <p>
-      <h3>Contact me</h3>
-      Brandi <strong>(Nova)</strong> McClure <br>
-      novazerosix09@outlook.com <br>
-      Phone: <em>Not Available</em>
-      <br><br>
-      <hr><br>
-    </p>
-    <form action="mailto:live.outlook.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-      <label>Your Name:</label>
-      <input type="text" name="" value=""><br>
+    <label>Your message below</label><br>
+    <textarea name="name" rows="8" cols="80"></textarea>
+    <br><br>
+    <input type="submit" value="Send"><input type="reset" value="Reset">
+  </form>
+</body>
 
-      <label> Email:</label>
-      <input type="email"><br>
-
-      <label>Your message below</label><br>
-      <textarea name="name" rows="8" cols="80"></textarea>
-      <br><br>
-      <input type="submit" value="Send"><input type="reset" value="Reset">
-      </form>
-  </body>
 </html>
