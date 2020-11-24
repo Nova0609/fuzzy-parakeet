@@ -7,6 +7,9 @@ body{
 
 h1 {
   margin: 0;
+  font-family: 'Sacramento', cursive;
+
+
 
 }
 
@@ -36,7 +39,7 @@ h2, h3{
 
 .pro {
   text-decoration: underline;
-
+  font-family: 'Sansita Swashed', cursive;
 }
 
 .top-cloud{
