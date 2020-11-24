@@ -1,1 +1,37 @@
-body{ background: #9ad3bc;}
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.top-container {
+  background: #8db596;
+  border: 10px solid;
+  padding:20px;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+}
+.middle-container {
+background: #707070;
+border: 20px solid;
+margin-left: 260px;
+margin-top:0;
+margin-right: 0;
+margin-bottom: 0;
+width: 200px;
+height: 200px;
+}
+
+.bottom-container {
+background: #92817a;
+border: 10px solid;
+margin-left: 500px;
+margin-top:0;
+margin-right: 0;
+margin-bottom: 0;
+width: 200px;
+height: 200px;
+}
