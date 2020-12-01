@@ -5,6 +5,12 @@ body {
   background: #8db596;
 }
 
+.p1{
+  text-align: justify;
+}
+.p2 {
+  text-align: center;
+}
 h1 {
   color: #16a596;
   font-size: 5.625rem;
@@ -25,12 +31,18 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+.fox{
+  width: 25%;
+  float: left;
+}
 .top-container {
   background: #8db596;
 }
 
 .middle-container {
   background: #8db596;
+
+
 }
 
 .skill {
@@ -72,6 +84,5 @@ hr {
   width: 20%;
 }
 .center {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
 }
