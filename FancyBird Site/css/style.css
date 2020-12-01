@@ -36,7 +36,12 @@ h3 {
 .skill {
   background: #8db596;
 }
-
+.skills-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
 .bottom-container {
   background: #8db596;
 }
