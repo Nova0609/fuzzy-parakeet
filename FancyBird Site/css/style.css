@@ -1,8 +1,8 @@
 body {
   margin: 0;
   text-align: center;
-  font-family:"Merriweather", serif;
-
+  font-family: "Merriweather", serif;
+  background: #8db596;
 }
 
 h1 {
@@ -11,13 +11,13 @@ h1 {
   padding-top: 50px;
   margin: 0;
   font-family: "Sacramento", cursive;
-
 }
 
 h2 {
-  font-family: sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 2.5rem;
   color: #16697a;
+  font-weight: normal;
 }
 
 h3 {
@@ -27,20 +27,18 @@ h3 {
 
 .top-container {
   background: #8db596;
-
 }
 
 .middle-container {
-  background: #707070;
-
+  background: #8db596;
 }
 
 .skill {
-  background: #92817a;
-
+  background: #8db596;
 }
+
 .bottom-container {
-  background: #92817a;
+  background: #8db596;
 }
 
 .pro {
@@ -59,7 +57,12 @@ h3 {
   bottom: 300px;
 }
 
-/*
-.mountain{
-
+hr {
+  border-color: #222831;
+  text-align: center;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  height: 0;
+  width: 20%;
 }
