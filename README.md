@@ -1,2 +1,2 @@
 # fuzzy-parakeet
- New Site
+ New Site, multiple rebuilds. Practice sites for final website project.
